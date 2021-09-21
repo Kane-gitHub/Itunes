@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`renders correctly 1`] = `
+<div
+  className="App"
+>
+  <header
+    className="App-header"
+  >
+    <nav
+      className="navbar navbar-expand-lg navbar-dark bg-dark"
+    >
+      <a
+        className="navbar-brand"
+        href="/"
+      >
+        <div
+          className="wrap-Brand"
+        >
+          <h2
+            className="logoName"
+          >
+             iTunes Search
+          </h2>
+        </div>
+      </a>
+      <div
+        aria-expanded={null}
+        className="justify-content-end navbar-collapse collapse"
+      >
+        <span
+          className="nav-text navbar-text"
+        >
+          <div
+            className="mr-auto navbar-nav"
+            onKeyDown={[Function]}
+          >
+            <a
+              className="link"
+              href="/music"
+              onClick={[Function]}
+            >
+              Music
+            </a>
+            <a
+              className="link"
+              href="/movies"
+              onClick={[Function]}
+            >
+              Movies
+            </a>
+            <a
+              className="link"
+              href="/videos"
+              onClick={[Function]}
+            >
+              Videos
+            </a>
+            <a
+              className="link"
+              href="/audiobooks"
+              onClick={[Function]}
+            >
+              Audio Books
+            </a>
+          </div>
+        </span>
+      </div>
+    </nav>
+  </header>
+  <div
+    className="home-container"
+  >
+    <div
+      className="home-wrap"
+    >
+      <h1>
+        Welcome To The Home of Media
+      </h1>
+      <h3>
+        To begin searching:
+      </h3>
+      <h4>
+        Choose a category from the NavBar
+      </h4>
+      <h5>
+        You will now be able to search through all that the Itunes store has to offer
+      </h5>
+      <h6>
+        Enjoy.
+      </h6>
+    </div>
+  </div>
+</div>
+`;
